@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Col, Container, Row } from "reactstrap";
 
-const index = () => {
+const Index = ({ toggle }) => {
   return (
     <div style={{ position: "relative" }}>
       <div
@@ -30,6 +30,7 @@ const index = () => {
               <Button
                 size="sm"
                 style={{ backgroundColor: "#0C60A9", padding: "5px 30px" }}
+                onClick={toggle}
               >
                 Contact Us
               </Button>
@@ -41,4 +42,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

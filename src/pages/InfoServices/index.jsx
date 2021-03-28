@@ -28,7 +28,7 @@ const MiniCard = ({ title, icon }) => {
   );
 };
 
-const index = () => {
+const Index = () => {
   return (
     <div style={{ padding: "80px 0" }}>
       <Container>
@@ -108,4 +108,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

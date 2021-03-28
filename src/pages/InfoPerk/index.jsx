@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 
-const index = () => {
+const Index = () => {
   return (
     <div style={{ padding: "80px 0 160px" }}>
       <Container>
@@ -30,4 +30,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

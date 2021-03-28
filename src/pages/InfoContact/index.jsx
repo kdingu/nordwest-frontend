@@ -4,7 +4,7 @@ import { RiMapPinRangeFill } from "react-icons/ri";
 import { BiSupport } from "react-icons/bi";
 import { AiOutlineClockCircle, AiOutlineMail } from "react-icons/ai";
 
-const index = () => {
+const Index = () => {
   return (
     <div
       style={{
@@ -85,4 +85,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
